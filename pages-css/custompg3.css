@@ -1,14 +1,19 @@
 @font-face {
     font-family: ahronbd;
-    src: url(aharoni-bold-font/ahronbd.ttf)
+    src: url(../css/aharoni-bold-font/ahronbd.ttf)
 }
-body{
-    background-image: url("../imgs/fundo-groove.jpg"); 
-    margin: 0%;
+html{
+    height: 100%;
+    /* background-color: rgb(252, 252, 204); */
+    
     
 }
+body{
+    background-image: url("../imgs/fundo-historia.jpg");
+    margin: 0%;
+}
 .logo{
-    text-align: center;
+    text-align:center;
 }
 .menu{
     background-color: black;
@@ -28,14 +33,15 @@ body{
 
     font-size: xx-large;
     font-family: ahronbd;
-    src: url(aharoni-bold-font/ahronbd.ttf)
+    src: url(../css/aharoni-bold-font/ahronbd.ttf)
 }
 .intro{
     text-align: center;
     color: white;
     text-shadow: 0.1em 0.1em #000000;
     font-family: ahronbd;
-    src: url(aharoni-bold-font/ahronbd.ttf)
+    src: url(../css/aharoni-bold-font/ahronbd.ttf);
+    font-size: 28px;
 }
 .opcoes a{
     text-decoration: none;
