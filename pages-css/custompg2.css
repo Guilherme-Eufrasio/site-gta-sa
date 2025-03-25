@@ -2,9 +2,15 @@
     font-family: ahronbd;
     src: url(../css/aharoni-bold-font/ahronbd.ttf)
 }
+ul li{
+    list-style: none;
+}
 body{
-    background-image: url("../imgs/fundo-do-sobre.jpg"); 
+    background-image: url("../imgs/fundo-gangues.jpg"); 
     margin: 0%;
+    background-repeat: no-repeat,no-repeat;
+    background-color: black;
+    background-position-y: 400px;
 }
 .logo{
     text-align:center;
@@ -43,3 +49,14 @@ body{
 .opcoes a:hover{
     text-decoration: underline;
 }
+.ballas{
+    width: 380px;
+    border: 10px solid #000;
+    border-radius: 10px;
+}
+.grove{
+    width: 360px;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+
