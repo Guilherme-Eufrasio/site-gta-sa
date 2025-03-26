@@ -8,9 +8,11 @@ ul li{
 body{
     background-image: url("../imgs/fundo-gangues.jpg"); 
     margin: 0%;
-    background-repeat: no-repeat,no-repeat;
-    background-color: black;
-    background-position-y: 400px;
+    background-repeat: no-repeat;
+    background-color: #fdf5de;
+    background-position-y: 45px;
+    background-position-x: -275x;
+    background-attachment: fixed;
 }
 .logo{
     text-align:center;
@@ -51,12 +53,16 @@ body{
 }
 .ballas{
     width: 380px;
-    border: 10px solid #000;
+    border: 10px solid #9e1bd1;
     border-radius: 10px;
 }
 .grove{
     width: 360px;
-    border: 10px solid black;
+    border: 10px solid rgb(36, 150, 21);
     border-radius: 10px;
 }
-
+.vagos{
+    width: 360px;
+    border: 10px solid rgb(228, 240, 63);
+    border-radius: 10px;
+}

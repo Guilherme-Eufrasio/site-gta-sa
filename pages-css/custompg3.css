@@ -11,6 +11,9 @@ html{
 body{
     background-image: url("../imgs/fundo-historia.jpg");
     margin: 0%;
+    background-repeat: no-repeat;
+    background-position-y: 400px;
+    background-color: #e4d9bb;
 }
 .logo{
     text-align:center;
