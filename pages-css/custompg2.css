@@ -32,17 +32,21 @@ body{
     gap: 20px;
 }
 .menu ul li{
-
     font-size: xx-large;
     font-family: ahronbd;
-    src: url(../css/aharoni-bold-font/ahronbd.ttf)
 }
 .intro{
     text-align: center;
     color: white;
     text-shadow: 0.1em 0.1em #000000;
     font-family: ahronbd;
-    src: url(../css/aharoni-bold-font/ahronbd.ttf)
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.intro img{
+    width: 310px;
+    height: 270px;
 }
 .opcoes a{
     text-decoration: none;
@@ -51,18 +55,37 @@ body{
 .opcoes a:hover{
     text-decoration: underline;
 }
-.ballas{
-    width: 380px;
-    border: 10px solid #9e1bd1;
+.ballas img{
+    border: 10px solid #8e30db;
     border-radius: 10px;
 }
-.grove{
-    width: 360px;
+.grove img{
     border: 10px solid rgb(36, 150, 21);
     border-radius: 10px;
 }
-.vagos{
-    width: 360px;
+.intro .grove{
+    flex-direction: column;
+}
+.vagos img{
     border: 10px solid rgb(228, 240, 63);
     border-radius: 10px;
+}
+.varrios img{
+    border: 10px solid rgb(62, 223, 196);
+    border-radius: 10px;
+}
+.rifa img{
+    border: 10px solid rgb(28 187 187);
+    border-radius: 10px
+}
+.triads img{
+    border: 10px solid rgb(43, 44, 44);
+    border-radius: 10px
+}
+.boys img{
+    border: 10px solid gold;
+    border-radius: 10px
+}
+.honras{
+    text-align: center;
 }
