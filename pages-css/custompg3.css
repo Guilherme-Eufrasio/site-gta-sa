@@ -33,17 +33,14 @@ body{
     gap: 20px;
 }
 .menu ul li{
-
     font-size: xx-large;
     font-family: ahronbd;
-    src: url(../css/aharoni-bold-font/ahronbd.ttf)
 }
 .intro{
     text-align: center;
     color: white;
     text-shadow: 0.1em 0.1em #000000;
     font-family: ahronbd;
-    src: url(../css/aharoni-bold-font/ahronbd.ttf);
     font-size: 28px;
 }
 .opcoes a{
