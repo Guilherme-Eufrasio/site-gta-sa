@@ -10,8 +10,8 @@ body{
     margin: 0%;
     background-repeat: no-repeat;
     background-color: #fdf5de;
-    background-position-y: 45px;
-    background-position-x: -275x;
+    background-position-y: 120px;
+    background-position-x: -315px;
     background-attachment: fixed;
 }
 .logo{
@@ -46,12 +46,21 @@ body{
     justify-content: space-around;
 }
 .intro h2{
-text-align: left;
+    text-align: left;
+    padding-left: 35px;
+    font-size: 30px;
+    padding-top: 25px; 
+}
+.intro p{
+    text-align: left;
+    padding-left: 130px;
+    font-size: 25px;
+    padding-right: 130px;
 }
 
 .intro img{
-    width: 310px;
-    height: 270px;
+    width: 375px;
+    height: 280px;
 }
 .opcoes a{
     text-decoration: none;
@@ -61,36 +70,48 @@ text-align: left;
     text-decoration: underline;
 }
 .ballas img{
-    border: 10px solid #8e30db;
+    border: 5px solid #8e30db;
     border-radius: 10px;
 }
 .grove img{
-    border: 10px solid rgb(36, 150, 21);
+    border: 5px solid rgb(36, 150, 21);
     border-radius: 10px;
+    margin: 30px;
 }
-.intro .grove{
-    flex-direction: column;
+h3{
+    text-align: center;
+    font-size: 25px;
+    padding: 40px;
+    padding-bottom: initial;
 }
 .vagos img{
-    border: 10px solid rgb(228, 240, 63);
+    border: 5px solid rgb(228, 240, 63);
     border-radius: 10px;
 }
 .varrios img{
-    border: 10px solid rgb(62, 223, 196);
+    border: 5px solid rgb(62, 223, 196);
     border-radius: 10px;
 }
 .rifa img{
-    border: 10px solid rgb(28 187 187);
+    border: 5px solid rgb(28 187 187);
     border-radius: 10px
 }
 .triads img{
-    border: 10px solid rgb(43, 44, 44);
+    border: 5px solid rgb(43, 44, 44);
     border-radius: 10px
 }
 .boys img{
-    border: 10px solid gold;
+    border: 5px solid gold;
     border-radius: 10px
 }
 .mapas{
     text-align: center;
+}
+.intro .loc{
+    width: 835px;
+    height: 505px;
+}
+.intro .bal{
+    width: 835px;
+    height: 505px;
 }
