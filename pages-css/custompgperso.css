@@ -43,15 +43,47 @@ body{
     display:flex ;
     justify-content: space-around;
     flex-wrap: wrap;
+    flex-direction: column;
 }   
-.intro .carl{
+.personagens{
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
-.intro .sweet{
+.personagens div{
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: row;
+    width:100%;
+    justify-content: flex-end;
 }
+.personagens.impar .desc{
+    
+}
+.personagens.impar{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: flex-end;
+
+}
+
+.personagens h2{
+    text-align: center;
+    width: 100%;
+    order: 1;
+}
+.personagens .desc img{
+    order: 3;
+}
+
+
+.personagens .desc p{
+    order: 2;
+
+}
+
 .intro li{
     width: 30%;
 }
