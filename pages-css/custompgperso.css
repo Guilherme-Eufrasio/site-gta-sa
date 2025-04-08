@@ -54,18 +54,26 @@ body{
 .personagens div{
     display: flex;
     flex-direction: row-reverse;
-    flex-direction: row;
+    /* flex-direction: row; */
     width:100%;
     justify-content: flex-end;
 }
-.personagens.impar .desc{
-    
+
+.personagens.par  div{
+    flex-direction: row; 
+
 }
+/* .personagens.impar .desc{
+    order: 2;
+    
+} */
 .personagens.impar{
-    display: flex;
+        /* background-color: blue; */
+
+    /* display: flex;
     flex-direction: row-reverse;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: flex-end; */
 
 }
 
